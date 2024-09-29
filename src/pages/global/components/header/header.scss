@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    height: 120px;
+    background-color: antiquewhite;  
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+.head-top{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 110px;
+    .navBar{
+        
+        .navList{
+            display: flex;
+            list-style-type: none;
+            column-gap: 25px;
+        }
+    }
+}
