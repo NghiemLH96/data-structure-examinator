@@ -7,3 +7,12 @@ $primary-font : "Familjen Grotesk", sans-serif;
     box-sizing: border-box;
     font-family: $primary-font;
 }
+.global-container{
+    height: 200vh;
+}
+.page-container{
+    padding: 50px 140px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
